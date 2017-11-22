@@ -543,10 +543,10 @@
         <name>FirstName</name>
         <type>String</type>
         <format/>
-        <currency>$</currency>
-        <decimal>.</decimal>
-        <group>,</group>
-        <nullif>-</nullif>
+        <currency></currency>
+        <decimal></decimal>
+        <group></group>
+        <nullif></nullif>
         <ifnull/>
         <position>-1</position>
         <length>-1</length>
@@ -566,7 +566,7 @@
         <position>-1</position>
         <length>-1</length>
         <precision>-1</precision>
-        <trim_type>both</trim_type>
+        <trim_type>none</trim_type>
         <repeat>N</repeat>
       </field>
       <field>
@@ -999,6 +999,21 @@
         <position>-1</position>
         <length>-1</length>
         <precision>-1</precision>
+        <trim_type>none</trim_type>
+        <repeat>N</repeat>
+      </field>
+      <field>
+        <name>HomePage</name>
+        <type>Number</type>
+        <format>#,###,###.#</format>
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <nullif>-</nullif>
+        <ifnull/>
+        <position>-1</position>
+        <length>9</length>
+        <precision>1</precision>
         <trim_type>none</trim_type>
         <repeat>N</repeat>
       </field>
