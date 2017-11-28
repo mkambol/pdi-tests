@@ -16,6 +16,11 @@
       <default_value>mayhem.local</default_value>
       <description/>
     </parameter>
+    <parameter>
+      <name>runConfig</name>
+      <default_value>mayhem</default_value>
+      <description/>
+    </parameter>
   </parameters>
   <slaveservers>
     </slaveservers>
@@ -506,6 +511,55 @@
     </hop>
   </hops>
   <notepads>
+    <notepad>
+      <note>This Job runs a transformation which will write data to Avro, Parquet
+and CSV formats, using all supported datatypes.
+It then run a transformation which reads that data back in, then
+writes it out to a text file in /tmp.
+
+To run, set the "cluster" parameter to the name of your cluster,
+and set the run configuration in the "Write data out" and 
+"Read data in" steps to use the AEL daemon for that cluster.</note>
+      <xloc>304</xloc>
+      <yloc>304</yloc>
+      <width>423</width>
+      <heigth>138</heigth>
+      <fontname>.SF NS Text</fontname>
+      <fontsize>13</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
+      <note>AEL Datatype Test Job</note>
+      <xloc>320</xloc>
+      <yloc>48</yloc>
+      <width>181</width>
+      <heigth>28</heigth>
+      <fontname>.SF NS Text</fontname>
+      <fontsize>15</fontsize>
+      <fontbold>Y</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>216</backgroundcolorred>
+      <backgroundcolorgreen>216</backgroundcolorgreen>
+      <backgroundcolorblue>216</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
   </notepads>
   <attributes>
     <group>

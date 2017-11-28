@@ -531,8 +531,8 @@
         <path>CreateTime</path>
         <name>CreateTime</name>
         <type>Timestamp</type>
-        <nullable>Yes</nullable>
-        <default/>
+        <nullable>No</nullable>
+        <default>2000-01-28 02:13:25.0000</default>
       </field>
       <field>
         <path>Active</path>
@@ -710,8 +710,8 @@
         <currency/>
         <decimal/>
         <group/>
-        <length>-1</length>
-        <precision>-1</precision>
+        <length>16</length>
+        <precision>6</precision>
         <set_empty_string>N</set_empty_string>
       </field>
       <field>
@@ -822,7 +822,7 @@
         <item>7345551212</item>
         <item/>
         <item>1/4/2017</item>
-        <item>1/28/2017 02:13:25</item>
+        <item/>
         <item/>
         <item/>
         <item>127.0.0.1</item>
@@ -895,7 +895,7 @@
         <group/>
         <nullif/>
         <trim_type>none</trim_type>
-        <length>50</length>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>
@@ -907,7 +907,7 @@
         <group/>
         <nullif/>
         <trim_type>none</trim_type>
-        <length>50</length>
+        <length>-1</length>
         <precision>-1</precision>
       </field>
       <field>
@@ -1017,30 +1017,6 @@
         <trim_type>none</trim_type>
         <length>-1</length>
         <precision>-1</precision>
-      </field>
-      <field>
-        <name>HomePage</name>
-        <type>Internet Address</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>Data</name>
-        <type>Binary</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>0</precision>
       </field>
     </fields>
     <NamedCluster>
@@ -1202,15 +1178,15 @@
         <path>City</path>
         <name>City</name>
         <type>String</type>
-        <nullable>Y</nullable>
+        <nullable>N</nullable>
         <default>def</default>
       </field>
       <field>
         <path>ZipCode</path>
         <name>ZipCode</name>
         <type>Integer</type>
-        <nullable>Y</nullable>
-        <default/>
+        <nullable>N</nullable>
+        <default>0</default>
       </field>
       <field>
         <path>Phone</path>
@@ -1223,8 +1199,8 @@
         <path>AddressLine2</path>
         <name>AddressLine2</name>
         <type>String</type>
-        <nullable>Y</nullable>
-        <default/>
+        <nullable>N</nullable>
+        <default>def</default>
       </field>
       <field>
         <path>CreateDate</path>
@@ -1238,20 +1214,20 @@
         <name>CreateTime</name>
         <type>Timestamp</type>
         <nullable>N</nullable>
-        <default/>
+        <default>2000-01-28 02:13:25.0000</default>
       </field>
       <field>
         <path>Active</path>
         <name>Active</name>
         <type>Boolean</type>
-        <nullable>Y</nullable>
+        <nullable>N</nullable>
         <default>Y</default>
       </field>
       <field>
         <path>TotalCost</path>
         <name>TotalCost</name>
         <type>BigNumber</type>
-        <nullable>Y</nullable>
+        <nullable>N</nullable>
         <default>0</default>
       </field>
       <field>
@@ -1265,7 +1241,7 @@
         <path>Data</path>
         <name>Data</name>
         <type>Binary</type>
-        <nullable>Y</nullable>
+        <nullable>N</nullable>
         <default>0</default>
       </field>
     </fields>
