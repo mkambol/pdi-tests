@@ -536,6 +536,7 @@ So Binary and Inet address fields are left off</note>
       <method>none</method>
       <schema_name/>
     </partitioning>
+    <passing_through_fields>N</passing_through_fields>
     <filename>hdfs://${cluster}:8020/tmp/datatypes.avro</filename>
     <fields>
       <field>
@@ -1410,8 +1411,8 @@ So Binary and Inet address fields are left off</note>
     <length/>
     <add_to_result_filenames>Y</add_to_result_filenames>
     <file>
-      <name>hdfs://user:password@mayhem.local:8020/tmp/datatypeTest-csv</name>
-      <source_configuration_name>mayhem</source_configuration_name>
+      <name>hdfs://user:password@svqxbdcn6cdh511n1.pentahoqa.com:8020/tmp/datatypeTest-csv</name>
+      <source_configuration_name>svqxbdcn6cdh511n1</source_configuration_name>
       <filemask>.*</filemask>
       <exclude_filemask/>
       <file_required>N</file_required>
